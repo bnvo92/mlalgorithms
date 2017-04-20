@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster-src.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_72e6c59703304c099555eca3b745a1e4 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_72e6c59703304c099555eca3b745a1e4" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var southWest = L.latLng(-90, -180);
+                var northEast = L.latLng(90, 180);
+                var bounds = L.latLngBounds(southWest, northEast);
+            
+
+            var map_72e6c59703304c099555eca3b745a1e4 = L.map(
+                                  'map_72e6c59703304c099555eca3b745a1e4',
+                                  {center: [40.7127837,-74.0059413],
+                                  zoom: 13,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_47455771e57643948244e98e0e171dfc = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    continuousWorld: false,
+                    noWrap: false,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_72e6c59703304c099555eca3b745a1e4);
+
+        
+    
+
+            var marker_8d37f46f60454e84a830b7345dca2629 = L.marker(
+                [40.762,-73.9751],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_1159a44424c54d64b087fc258683442e = L.popup({maxWidth: '300'});
+
+            
+                var html_34e7d8f8e21945348941eae9ea2cbb16 = $('<div id="html_34e7d8f8e21945348941eae9ea2cbb16" style="width: 100.0%; height: 100.0%;">@Xsanthemum: &#39;(#bruce #white: #alba #duchessOfAlba #fitzjames #cayetana #NYU #titiZ #z #omega #apocalypse\xe2\x80\xa6 https://t.co/WUHnbWLP9g&#39;</div>')[0];
+                popup_1159a44424c54d64b087fc258683442e.setContent(html_34e7d8f8e21945348941eae9ea2cbb16);
+            
+
+            marker_8d37f46f60454e84a830b7345dca2629.bindPopup(popup_1159a44424c54d64b087fc258683442e);
+
+            
+        
+    
+
+            var marker_809bfb7c996d46e9974ab773d3ed85a0 = L.marker(
+                [40.72946,-73.99357],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_7ad1e63146cc4554bc7cfa494a9f01fd = L.popup({maxWidth: '300'});
+
+            
+                var html_72af496346dc45b9ba5add166213fc0c = $('<div id="html_72af496346dc45b9ba5add166213fc0c" style="width: 100.0%; height: 100.0%;">@GiovanniMunari: &#39;Just posted a photo @ NYU Tisch School of the Arts https://t.co/WgF5BwwKDb&#39;</div>')[0];
+                popup_7ad1e63146cc4554bc7cfa494a9f01fd.setContent(html_72af496346dc45b9ba5add166213fc0c);
+            
+
+            marker_809bfb7c996d46e9974ab773d3ed85a0.bindPopup(popup_7ad1e63146cc4554bc7cfa494a9f01fd);
+
+            
+        
+    
+
+            var marker_e77a3987efa64070b977fcb46b54bb6f = L.marker(
+                [40.72961868,-73.99352448],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_547d58cc63b84db881a71f79a4351a5a = L.popup({maxWidth: '300'});
+
+            
+                var html_3a6cf6593c6941da8b7fca6b3d7bd2f2 = $('<div id="html_3a6cf6593c6941da8b7fca6b3d7bd2f2" style="width: 100.0%; height: 100.0%;">@MithruV: &#39;Pattern-ception \xf0\x9f\x98\x80 @ ITP - NYU https://t.co/2Pq9J8Otdq&#39;</div>')[0];
+                popup_547d58cc63b84db881a71f79a4351a5a.setContent(html_3a6cf6593c6941da8b7fca6b3d7bd2f2);
+            
+
+            marker_e77a3987efa64070b977fcb46b54bb6f.bindPopup(popup_547d58cc63b84db881a71f79a4351a5a);
+
+            
+        
+    
+
+            var marker_aaa78664225c4d388f703c1263198c0a = L.marker(
+                [40.72924801,-73.99369981],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_1cea4c243b114f0bb91900093f666f63 = L.popup({maxWidth: '300'});
+
+            
+                var html_a51c707caa6d48a4b44ca3e6e18433db = $('<div id="html_a51c707caa6d48a4b44ca3e6e18433db" style="width: 100.0%; height: 100.0%;">@venuzdelmar: &#39;Part of my NYU Grad Musical Theatre Writing collaboration. Haaaaa so muuuuuch fun.... I could\xe2\x80\xa6 https://t.co/UjBUX8IfU4&#39;</div>')[0];
+                popup_1cea4c243b114f0bb91900093f666f63.setContent(html_a51c707caa6d48a4b44ca3e6e18433db);
+            
+
+            marker_aaa78664225c4d388f703c1263198c0a.bindPopup(popup_1cea4c243b114f0bb91900093f666f63);
+
+            
+        
+    
+
+            var marker_5b5a95841054403198aacf7c460c57d9 = L.marker(
+                [40.72988718,-73.99608036],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_6d75e12d9c3b448e90c1688d25d8b0cc = L.popup({maxWidth: '300'});
+
+            
+                var html_538c896911e64daa96efe543ded22596 = $('<div id="html_538c896911e64daa96efe543ded22596" style="width: 100.0%; height: 100.0%;">@kathryn_bowen: &#39;Fun fact: last year I applied and got accepted into the grad program at NYU. It would&#39;ve been\xe2\x80\xa6 https://t.co/Sh5KVnSfqA&#39;</div>')[0];
+                popup_6d75e12d9c3b448e90c1688d25d8b0cc.setContent(html_538c896911e64daa96efe543ded22596);
+            
+
+            marker_5b5a95841054403198aacf7c460c57d9.bindPopup(popup_6d75e12d9c3b448e90c1688d25d8b0cc);
+
+            
+        
+    
+
+            var marker_89fa4242b7ce4ae2907986efd11fce30 = L.marker(
+                [40.72961868,-73.99352448],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_037b3e25f83c4f37a131808c0e322929 = L.popup({maxWidth: '300'});
+
+            
+                var html_a9adb43686cf43bcabeebb0a78d641cb = $('<div id="html_a9adb43686cf43bcabeebb0a78d641cb" style="width: 100.0%; height: 100.0%;">@sleepy_dev: &#39;just finished first phase #led #cube #physicalcomputing #ITP @ ITP - NYU https://t.co/sv4eKp6PQp&#39;</div>')[0];
+                popup_037b3e25f83c4f37a131808c0e322929.setContent(html_a9adb43686cf43bcabeebb0a78d641cb);
+            
+
+            marker_89fa4242b7ce4ae2907986efd11fce30.bindPopup(popup_037b3e25f83c4f37a131808c0e322929);
+
+            
+        
+    
+
+            var marker_2c1bf495d23841f286c97d560378f6d4 = L.marker(
+                [40.73651866,-73.99091894],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_6c12954505d54d58bbb24789780a5641 = L.popup({maxWidth: '300'});
+
+            
+                var html_7b59f403f0c44f81bc8688f5c24cc514 = $('<div id="html_7b59f403f0c44f81bc8688f5c24cc514" style="width: 100.0%; height: 100.0%;">@jlquiroz: &#39;Photo booth fun #SpringFling #LatePost #NYU @ Union Square Ballroom https://t.co/8m3MRRzzXU&#39;</div>')[0];
+                popup_6c12954505d54d58bbb24789780a5641.setContent(html_7b59f403f0c44f81bc8688f5c24cc514);
+            
+
+            marker_2c1bf495d23841f286c97d560378f6d4.bindPopup(popup_6c12954505d54d58bbb24789780a5641);
+
+            
+        
+    
+
+            var marker_e28a49bb2ab24b559bd628cf7f51fd7c = L.marker(
+                [40.72961868,-73.99352448],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_ae18fd79ca82437f82e2407659e64b2c = L.popup({maxWidth: '300'});
+
+            
+                var html_7dbd791b4f1b46d38e6b3be14f8b172c = $('<div id="html_7dbd791b4f1b46d38e6b3be14f8b172c" style="width: 100.0%; height: 100.0%;">@MithruV: &#39;Last one for now.. pictures of the floor at @itp_nyu @ ITP - NYU https://t.co/7J73YRQ4Cb&#39;</div>')[0];
+                popup_ae18fd79ca82437f82e2407659e64b2c.setContent(html_7dbd791b4f1b46d38e6b3be14f8b172c);
+            
+
+            marker_e28a49bb2ab24b559bd628cf7f51fd7c.bindPopup(popup_ae18fd79ca82437f82e2407659e64b2c);
+
+            
+        
+    
+
+            var marker_2b77019859e544e0aaed397914390eb8 = L.marker(
+                [40.72961868,-73.99352448],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_b428293158a44225ac9ff97686d499c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_58a3c691252a483b8dae9e2e6916fccd = $('<div id="html_58a3c691252a483b8dae9e2e6916fccd" style="width: 100.0%; height: 100.0%;">@MithruV: &#39;More patterns from under the microscope.. LEDs to onion skin.. @ ITP - NYU https://t.co/ICaixNNkwQ&#39;</div>')[0];
+                popup_b428293158a44225ac9ff97686d499c4.setContent(html_58a3c691252a483b8dae9e2e6916fccd);
+            
+
+            marker_2b77019859e544e0aaed397914390eb8.bindPopup(popup_b428293158a44225ac9ff97686d499c4);
+
+            
+        
+    
+
+            var marker_5f0cf3c43e464933a0e817ab149c1a0e = L.marker(
+                [40.72961868,-73.99352448],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_bf4cd09334cf4083847be1d0b1dde72a = L.popup({maxWidth: '300'});
+
+            
+                var html_d5fae8a239c64693b0df82a92850c5ed = $('<div id="html_d5fae8a239c64693b0df82a92850c5ed" style="width: 100.0%; height: 100.0%;">@MithruV: &#39;More patterns from Google Earth @ ITP - NYU https://t.co/LJ9BmH5dy6&#39;</div>')[0];
+                popup_bf4cd09334cf4083847be1d0b1dde72a.setContent(html_d5fae8a239c64693b0df82a92850c5ed);
+            
+
+            marker_5f0cf3c43e464933a0e817ab149c1a0e.bindPopup(popup_bf4cd09334cf4083847be1d0b1dde72a);
+
+            
+        
+    
+
+            var marker_6d9f8783d52e426fa0bd2c5487f1fc5a = L.marker(
+                [40.72961868,-73.99352448],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_587f7872ad114388a5df777d967b402c = L.popup({maxWidth: '300'});
+
+            
+                var html_b5ee14bbff2944ce84ddbf2e28ec3184 = $('<div id="html_b5ee14bbff2944ce84ddbf2e28ec3184" style="width: 100.0%; height: 100.0%;">@MithruV: &#39;Patterns from Google maps @ ITP - NYU https://t.co/ckhxXj2GDc&#39;</div>')[0];
+                popup_587f7872ad114388a5df777d967b402c.setContent(html_b5ee14bbff2944ce84ddbf2e28ec3184);
+            
+
+            marker_6d9f8783d52e426fa0bd2c5487f1fc5a.bindPopup(popup_587f7872ad114388a5df777d967b402c);
+
+            
+        
+    
+
+            var marker_718a8904e4024299a57b1f60f9072af6 = L.marker(
+                [40.730957,-73.9936295],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_26d836d0356e4d15ba588c538cfd2c3f = L.popup({maxWidth: '300'});
+
+            
+                var html_0c2cbdce682e4cc2ad943c08886c1ab0 = $('<div id="html_0c2cbdce682e4cc2ad943c08886c1ab0" style="width: 100.0%; height: 100.0%;">@JPStreetNYC: &#39;#jpstreet #jpstreetnyc #nyu #nyustern #nyucampus #nyustudent #greenwichvillagenyc #nyceats\xe2\x80\xa6 https://t.co/BnG8WmMyhw&#39;</div>')[0];
+                popup_26d836d0356e4d15ba588c538cfd2c3f.setContent(html_0c2cbdce682e4cc2ad943c08886c1ab0);
+            
+
+            marker_718a8904e4024299a57b1f60f9072af6.bindPopup(popup_26d836d0356e4d15ba588c538cfd2c3f);
+
+            
+        
+    
+
+            var marker_459a4dfbd2f44a5fbeb7f642767be2f4 = L.marker(
+                [40.72946,-73.99357],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_0e8ad744f1734193b69536648582fa41 = L.popup({maxWidth: '300'});
+
+            
+                var html_eb793ac7c0b94376b1dbf84f7b947008 = $('<div id="html_eb793ac7c0b94376b1dbf84f7b947008" style="width: 100.0%; height: 100.0%;">@Sa_man_t_h_a: &#39;Just posted a photo @ NYU Tisch School of the Arts https://t.co/9ewJ2h67BX&#39;</div>')[0];
+                popup_0e8ad744f1734193b69536648582fa41.setContent(html_eb793ac7c0b94376b1dbf84f7b947008);
+            
+
+            marker_459a4dfbd2f44a5fbeb7f642767be2f4.bindPopup(popup_0e8ad744f1734193b69536648582fa41);
+
+            
+        
+    
+
+            var marker_23ff16b5d6124b2d82bae0cd27da502e = L.marker(
+                [40.72988718,-73.99608036],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_8bfff7a493fc44d3a277b2f35bad004c = L.popup({maxWidth: '300'});
+
+            
+                var html_32242c602d1747f9b15fc3c49455e48d = $('<div id="html_32242c602d1747f9b15fc3c49455e48d" style="width: 100.0%; height: 100.0%;">@H_E_I_D_I_L_E_E: &#39;TBT #Regram bencopperwheat Thank you @H_E_I_D_I_L_E_E for coming to nyu today of share your work\xe2\x80\xa6 https://t.co/ORwzADooYT&#39;</div>')[0];
+                popup_8bfff7a493fc44d3a277b2f35bad004c.setContent(html_32242c602d1747f9b15fc3c49455e48d);
+            
+
+            marker_23ff16b5d6124b2d82bae0cd27da502e.bindPopup(popup_8bfff7a493fc44d3a277b2f35bad004c);
+
+            
+        
+    
+
+            var marker_b1b96c723c4c4c2f9342fa2646121400 = L.marker(
+                [40.72379528,-73.99936402],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_939c9c53d2f342928b7311d69dbc23d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_9323a41b51074c378b26639b9594495c = $('<div id="html_9323a41b51074c378b26639b9594495c" style="width: 100.0%; height: 100.0%;">@ashhwee: &#39;To last weekend when we froze our butts off in this beautiful city. \xf0\x9f\x93\xb8: @bmfreecloud #soho #nyu\xe2\x80\xa6 https://t.co/5UF3x0TUAM&#39;</div>')[0];
+                popup_939c9c53d2f342928b7311d69dbc23d9.setContent(html_9323a41b51074c378b26639b9594495c);
+            
+
+            marker_b1b96c723c4c4c2f9342fa2646121400.bindPopup(popup_939c9c53d2f342928b7311d69dbc23d9);
+
+            
+        
+    
+
+            var marker_3e593f170a5041bd92c8a609c6155394 = L.marker(
+                [40.6947086,-73.9870029],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_d852e97583aa467399afd520b8c5561d = L.popup({maxWidth: '300'});
+
+            
+                var html_d42f41c03acb4ae3a0891551166864da = $('<div id="html_d42f41c03acb4ae3a0891551166864da" style="width: 100.0%; height: 100.0%;">@lafemmevet: &#39;We&#39;re getting better with time! It was a success\xf0\x9f\x98\x81 thomaspgalamemorialfund @ NYU Tandon School of\xe2\x80\xa6 https://t.co/1FzDenLdh9&#39;</div>')[0];
+                popup_d852e97583aa467399afd520b8c5561d.setContent(html_d42f41c03acb4ae3a0891551166864da);
+            
+
+            marker_3e593f170a5041bd92c8a609c6155394.bindPopup(popup_d852e97583aa467399afd520b8c5561d);
+
+            
+        
+    
+
+            var marker_93a34017dd5d4f3ebc4bb2caeda00deb = L.marker(
+                [40.77552,-73.95368],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_fa7a061ea15a40bc9101f92b8fb7a24f = L.popup({maxWidth: '300'});
+
+            
+                var html_06802c0f8a1b43b7af9f616ca1c7688d = $('<div id="html_06802c0f8a1b43b7af9f616ca1c7688d" style="width: 100.0%; height: 100.0%;">@sania_nyu: &#39;iLunch #justanotherday #worktogether #eattogether #cantstopwontstop #notimeforlunch #myapple\xe2\x80\xa6 https://t.co/RWjWXcA5sn&#39;</div>')[0];
+                popup_fa7a061ea15a40bc9101f92b8fb7a24f.setContent(html_06802c0f8a1b43b7af9f616ca1c7688d);
+            
+
+            marker_93a34017dd5d4f3ebc4bb2caeda00deb.bindPopup(popup_fa7a061ea15a40bc9101f92b8fb7a24f);
+
+            
+        
+    
+
+            var marker_f46689745324400db002d1f4a0779705 = L.marker(
+                [40.72984948,-73.99758975],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_704a279b50f448eb81d64ed32ad228df = L.popup({maxWidth: '300'});
+
+            
+                var html_d300146447904209aa4629f6d75ba3f3 = $('<div id="html_d300146447904209aa4629f6d75ba3f3" style="width: 100.0%; height: 100.0%;">@demureista: &#39;Truth tonight. By @najmah53.\xe2\x9c\x8a\xf0\x9f\x8f\xbf\xe2\x9c\x8a\xf0\x9f\x8f\xbc #hiphopcaucus #nyu @ Skirball Center for the Performing Arts https://t.co/7abjlUqlk1&#39;</div>')[0];
+                popup_704a279b50f448eb81d64ed32ad228df.setContent(html_d300146447904209aa4629f6d75ba3f3);
+            
+
+            marker_f46689745324400db002d1f4a0779705.bindPopup(popup_704a279b50f448eb81d64ed32ad228df);
+
+            
+        
+    
+
+            var marker_91bf88f3fcf849fd82a73f7ffe4a923f = L.marker(
+                [40.72893771,-73.99825484],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_57fe0da86b404f7ca45bd6c5378f6130 = L.popup({maxWidth: '300'});
+
+            
+                var html_7990c86026fd4d2b9e6d651717eddb22 = $('<div id="html_7990c86026fd4d2b9e6d651717eddb22" style="width: 100.0%; height: 100.0%;">@BrunchonianNYC: &#39;Waited\xf0\x9f\x92\xa5froze \xf0\x9f\x92\xa5tried #cookiedoughconfections #nyc #nyu Amanda&#39;s Birthday \xf0\x9f\x8e\x82#17yearsold #happydad\xe2\x80\xa6 https://t.co/Bn0pTopFej&#39;</div>')[0];
+                popup_57fe0da86b404f7ca45bd6c5378f6130.setContent(html_7990c86026fd4d2b9e6d651717eddb22);
+            
+
+            marker_91bf88f3fcf849fd82a73f7ffe4a923f.bindPopup(popup_57fe0da86b404f7ca45bd6c5378f6130);
+
+            
+        
+    
+
+            var marker_5ce96bc32fff4323ac9c59007e7260fa = L.marker(
+                [40.72988718,-73.99608036],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_595d57ace13d4997ba1b0223ea0e0566 = L.popup({maxWidth: '300'});
+
+            
+                var html_9d9ecf60e5554f91a0034fed0b98c86d = $('<div id="html_9d9ecf60e5554f91a0034fed0b98c86d" style="width: 100.0%; height: 100.0%;">@Macnatty: &#39;Career Day DONE!!!! #nyc #nyu #careerday #work @ New York University https://t.co/hvfLfyx0jB&#39;</div>')[0];
+                popup_595d57ace13d4997ba1b0223ea0e0566.setContent(html_9d9ecf60e5554f91a0034fed0b98c86d);
+            
+
+            marker_5ce96bc32fff4323ac9c59007e7260fa.bindPopup(popup_595d57ace13d4997ba1b0223ea0e0566);
+
+            
+        
+    
+
+            var marker_5814753b35074f0f9d89208292e3fb22 = L.marker(
+                [40.6947086,-73.9870029],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_910675a2627243c39a1ae8addd2e0674 = L.popup({maxWidth: '300'});
+
+            
+                var html_d84ecd1ee3714b81b4f2eee7a4c5fc8f = $('<div id="html_d84ecd1ee3714b81b4f2eee7a4c5fc8f" style="width: 100.0%; height: 100.0%;">@Andymo: &#39;Tech Kids Unlimited Fake News Hackathon @ NYU Tandon School of Engineering https://t.co/DrcAu0KBjd&#39;</div>')[0];
+                popup_910675a2627243c39a1ae8addd2e0674.setContent(html_d84ecd1ee3714b81b4f2eee7a4c5fc8f);
+            
+
+            marker_5814753b35074f0f9d89208292e3fb22.bindPopup(popup_910675a2627243c39a1ae8addd2e0674);
+
+            
+        
+    
+
+            var marker_e289a237240c4b03b4b285d9ab11c8c8 = L.marker(
+                [40.72984948,-73.99758975],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_bea4c60fd235479ca49623fcf95bdeb1 = L.popup({maxWidth: '300'});
+
+            
+                var html_fac06dc91d934e1c8c4b1cc46f3154a9 = $('<div id="html_fac06dc91d934e1c8c4b1cc46f3154a9" style="width: 100.0%; height: 100.0%;">@najmah53: &#39;3.11 @hiphopcaucus #NYU The Climate Action Conference: Today is the day!!! Conference starting\xe2\x80\xa6 https://t.co/0yxJP28yyR&#39;</div>')[0];
+                popup_bea4c60fd235479ca49623fcf95bdeb1.setContent(html_fac06dc91d934e1c8c4b1cc46f3154a9);
+            
+
+            marker_e289a237240c4b03b4b285d9ab11c8c8.bindPopup(popup_bea4c60fd235479ca49623fcf95bdeb1);
+
+            
+        
+    
+
+            var marker_9fa4b33b55ef4bedaa0664b97bd1c4d2 = L.marker(
+                [40.72988718,-73.99608036],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_80a4694dba8f41c3b0798a52556f0c59 = L.popup({maxWidth: '300'});
+
+            
+                var html_cd90a7d2c8c54da080fad7a6707f2641 = $('<div id="html_cd90a7d2c8c54da080fad7a6707f2641" style="width: 100.0%; height: 100.0%;">@Macnatty: &#39;My view while being hall monitor today #nyu #careerday #work #nyc #itsfuckingcold @ New York\xe2\x80\xa6 https://t.co/SK8iAcKYBy&#39;</div>')[0];
+                popup_80a4694dba8f41c3b0798a52556f0c59.setContent(html_cd90a7d2c8c54da080fad7a6707f2641);
+            
+
+            marker_9fa4b33b55ef4bedaa0664b97bd1c4d2.bindPopup(popup_80a4694dba8f41c3b0798a52556f0c59);
+
+            
+        
+    
+
+            var marker_87d56f4779ae45bba8dcb65e8ab5288e = L.marker(
+                [40.73053,-73.99948],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_c6c6b13e3cc74ba28fb1ce672550ab1c = L.popup({maxWidth: '300'});
+
+            
+                var html_d820a423eef84a0dba4d632c3091e5c5 = $('<div id="html_d820a423eef84a0dba4d632c3091e5c5" style="width: 100.0%; height: 100.0%;">@ladykfever: &#39;On the case...!! Super proud of my future #lawyer #bigA larose0505 graduation day \xf0\x9f\x8e\x89\xf0\x9f\x8e\x8a\xf0\x9f\x92\x8b\xf0\x9f\x91\x8a\xf0\x9f\x8f\xbc#NYU\xe2\x80\xa6 https://t.co/rjOvmHaNj0&#39;</div>')[0];
+                popup_c6c6b13e3cc74ba28fb1ce672550ab1c.setContent(html_d820a423eef84a0dba4d632c3091e5c5);
+            
+
+            marker_87d56f4779ae45bba8dcb65e8ab5288e.bindPopup(popup_c6c6b13e3cc74ba28fb1ce672550ab1c);
+
+            
+        
+    
+
+            var marker_3e67864bad674ac0ba2b3b47fc43d69b = L.marker(
+                [40.73083333,-73.9975],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_aa68b0a7bd844f8198a9e965d677be44 = L.popup({maxWidth: '300'});
+
+            
+                var html_316b92d3ba5c4c76adb5fec001e472b8 = $('<div id="html_316b92d3ba5c4c76adb5fec001e472b8" style="width: 100.0%; height: 100.0%;">@MfanaMlambo: &#39;#Siyaqhuba #NYU #BusinessConference The hustle for economic freedom\xe2\x80\xa6 https://t.co/dNkn6YfpUD&#39;</div>')[0];
+                popup_aa68b0a7bd844f8198a9e965d677be44.setContent(html_316b92d3ba5c4c76adb5fec001e472b8);
+            
+
+            marker_3e67864bad674ac0ba2b3b47fc43d69b.bindPopup(popup_aa68b0a7bd844f8198a9e965d677be44);
+
+            
+        
+    
+
+            var marker_39fa834ca2844daeb7705fc6667755bc = L.marker(
+                [40.72988718,-73.99608036],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_10a394a37a7c451eabea46aa66a4cc1e = L.popup({maxWidth: '300'});
+
+            
+                var html_76b796529fe942b2b4f8bdc89f338347 = $('<div id="html_76b796529fe942b2b4f8bdc89f338347" style="width: 100.0%; height: 100.0%;">@Macnatty: &#39;We are ready #career day #1199 #workforce2000 #nyu @ New York University https://t.co/a4zP8LqiX8&#39;</div>')[0];
+                popup_10a394a37a7c451eabea46aa66a4cc1e.setContent(html_76b796529fe942b2b4f8bdc89f338347);
+            
+
+            marker_39fa834ca2844daeb7705fc6667755bc.bindPopup(popup_10a394a37a7c451eabea46aa66a4cc1e);
+
+            
+        
+    
+
+            var marker_acbb72bcbbfe45b789b6746e0d53f2d6 = L.marker(
+                [40.72961868,-73.99352448],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_0198cd21a7fc48f49ee04654e1b2b74d = L.popup({maxWidth: '300'});
+
+            
+                var html_e6c39034b1c642fd9855e1d79cb53985 = $('<div id="html_e6c39034b1c642fd9855e1d79cb53985" style="width: 100.0%; height: 100.0%;">@sleepy_dev: &#39;multiple windows #processing for answering an itp friend and i am instead in that. @ ITP - NYU https://t.co/gJ0N6L3ir3&#39;</div>')[0];
+                popup_0198cd21a7fc48f49ee04654e1b2b74d.setContent(html_e6c39034b1c642fd9855e1d79cb53985);
+            
+
+            marker_acbb72bcbbfe45b789b6746e0d53f2d6.bindPopup(popup_0198cd21a7fc48f49ee04654e1b2b74d);
+
+            
+        
+    
+
+            var marker_211f6c280050487e803ca9319787123e = L.marker(
+                [40.69202,-73.9948],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_566b1a3a3ab0485497b871202388673f = L.popup({maxWidth: '300'});
+
+            
+                var html_968a87b3a13a4a809b871c0f364304b6 = $('<div id="html_968a87b3a13a4a809b871c0f364304b6" style="width: 100.0%; height: 100.0%;">@AlecHorvath_: &#39;We do it the best, why even try?\xf0\x9f\x98\x8c\xf0\x9f\x92\x95 @ Lambda Chi Alpha at NYU https://t.co/5rWeeDkA7D&#39;</div>')[0];
+                popup_566b1a3a3ab0485497b871202388673f.setContent(html_968a87b3a13a4a809b871c0f364304b6);
+            
+
+            marker_211f6c280050487e803ca9319787123e.bindPopup(popup_566b1a3a3ab0485497b871202388673f);
+
+            
+        
+    
+
+            var marker_b20b8b184651498a900b76171cb661d8 = L.marker(
+                [40.72924801,-73.99369981],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_22572f1711b64aeb9cb23411d0fbd45f = L.popup({maxWidth: '300'});
+
+            
+                var html_7829179ab1fa4e0e82426b424c676cd3 = $('<div id="html_7829179ab1fa4e0e82426b424c676cd3" style="width: 100.0%; height: 100.0%;">@venuzdelmar: &#39;NYU Tisch Grad Musical Theatre Writing Audition-Collaboration Weekend.  #Audition2 Month 3\xe2\x80\xa6 https://t.co/IzApb0pEvz&#39;</div>')[0];
+                popup_22572f1711b64aeb9cb23411d0fbd45f.setContent(html_7829179ab1fa4e0e82426b424c676cd3);
+            
+
+            marker_b20b8b184651498a900b76171cb661d8.bindPopup(popup_22572f1711b64aeb9cb23411d0fbd45f);
+
+            
+        
+    
+
+            var marker_99d5e4f928024e908465e01b866bcb7d = L.marker(
+                [40.72921284,-73.99620804],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_0e8da3d7ae044f2da3ce0cf823c44e92 = L.popup({maxWidth: '300'});
+
+            
+                var html_348cc8bba0294a8da5575cb0bb2d3714 = $('<div id="html_348cc8bba0294a8da5575cb0bb2d3714" style="width: 100.0%; height: 100.0%;">@danleephoto: &#39;Always looking ahead. Thanks to @silasgreen1 for setting up yesterday&#39;s meet. Had a blast. @ NYU\xe2\x80\xa6 https://t.co/qImaCfj3Z4&#39;</div>')[0];
+                popup_0e8da3d7ae044f2da3ce0cf823c44e92.setContent(html_348cc8bba0294a8da5575cb0bb2d3714);
+            
+
+            marker_99d5e4f928024e908465e01b866bcb7d.bindPopup(popup_0e8da3d7ae044f2da3ce0cf823c44e92);
+
+            
+        
+    
+
+            var marker_b173a0b22aa14e77b96cdff9a1ab6eae = L.marker(
+                [40.72921284,-73.99620804],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_ca83921c2a224a05aebfa68aba3d534e = L.popup({maxWidth: '300'});
+
+            
+                var html_0cf66e35692346c1b067cd03c93bb9f3 = $('<div id="html_0cf66e35692346c1b067cd03c93bb9f3" style="width: 100.0%; height: 100.0%;">@Killahkazx: &#39;Snowy closure. #nyc #shotwithre #streetphotography #\xf0\x9f\x9a\xa7 #snow #snowing #\xe2\x9d\x84 #\xf0\x9f\x8c\xa8 @ NYU Stern School of\xe2\x80\xa6 https://t.co/fv1sUaqH2o&#39;</div>')[0];
+                popup_ca83921c2a224a05aebfa68aba3d534e.setContent(html_0cf66e35692346c1b067cd03c93bb9f3);
+            
+
+            marker_b173a0b22aa14e77b96cdff9a1ab6eae.bindPopup(popup_ca83921c2a224a05aebfa68aba3d534e);
+
+            
+        
+    
+
+            var marker_923eb877f8b84c218b6b0e05a2c15ffc = L.marker(
+                [40.7142,-74.0064],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_cee3a706dec044ceaeb8607d9fde978c = L.popup({maxWidth: '300'});
+
+            
+                var html_d01f115b21a24635be93caf8dff62f3e = $('<div id="html_d01f115b21a24635be93caf8dff62f3e" style="width: 100.0%; height: 100.0%;">@STEMLatina: &#39;\xf0\x9f\x92\x9b\xe2\x9c\x8cHappy Spring Break y&#39;all\xe2\x9c\x8c\xf0\x9f\x92\x9b\n#NYC #SpringBreak #Travel #Sunshine #NYU #City #NewYorkCity\xe2\x80\xa6 https://t.co/JZOxkXpIeD&#39;</div>')[0];
+                popup_cee3a706dec044ceaeb8607d9fde978c.setContent(html_d01f115b21a24635be93caf8dff62f3e);
+            
+
+            marker_923eb877f8b84c218b6b0e05a2c15ffc.bindPopup(popup_cee3a706dec044ceaeb8607d9fde978c);
+
+            
+        
+    
+
+            var marker_5789afba2af749d7bb2c2b554d2e72e5 = L.marker(
+                [40.72953529,-73.99347782],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_edda457b15df4625b617dc0090bf465a = L.popup({maxWidth: '300'});
+
+            
+                var html_53a833149669433588a997fb02498fff = $('<div id="html_53a833149669433588a997fb02498fff" style="width: 100.0%; height: 100.0%;">@GooleyChris: &#39;I&#39;m at NYU Tisch School Of The Arts - @nyuniversity in New York, NY https://t.co/i9OYrZi6U5&#39;</div>')[0];
+                popup_edda457b15df4625b617dc0090bf465a.setContent(html_53a833149669433588a997fb02498fff);
+            
+
+            marker_5789afba2af749d7bb2c2b554d2e72e5.bindPopup(popup_edda457b15df4625b617dc0090bf465a);
+
+            
+        
+    
+
+            var marker_e5c1995e1a14432a8abc5a055d517a88 = L.marker(
+                [40.6947086,-73.9870029],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_a2107aa9c89c44bc8d8ed1ba6f959823 = L.popup({maxWidth: '300'});
+
+            
+                var html_719fe35c39e74365bf76a567a9b191fe = $('<div id="html_719fe35c39e74365bf76a567a9b191fe" style="width: 100.0%; height: 100.0%;">@vanishingdream: &#39;Just posted a photo @ NYU Tandon School of Engineering https://t.co/Dbjsz06ja3&#39;</div>')[0];
+                popup_a2107aa9c89c44bc8d8ed1ba6f959823.setContent(html_719fe35c39e74365bf76a567a9b191fe);
+            
+
+            marker_e5c1995e1a14432a8abc5a055d517a88.bindPopup(popup_a2107aa9c89c44bc8d8ed1ba6f959823);
+
+            
+        
+    
+
+            var marker_67a42e1e40ac4552bb77511d23892310 = L.marker(
+                [40.72953529,-73.99347782],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_a40c63a0248345c2ac747956ca5340b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_0294bab075cf45228b44d21ad0598377 = $('<div id="html_0294bab075cf45228b44d21ad0598377" style="width: 100.0%; height: 100.0%;">@GooleyChris: &#39;I&#39;m at NYU Tisch School Of The Arts - @nyuniversity in New York, NY https://t.co/6rbpWUDwVf&#39;</div>')[0];
+                popup_a40c63a0248345c2ac747956ca5340b9.setContent(html_0294bab075cf45228b44d21ad0598377);
+            
+
+            marker_67a42e1e40ac4552bb77511d23892310.bindPopup(popup_a40c63a0248345c2ac747956ca5340b9);
+
+            
+        
+    
+
+            var marker_5c385fb6e39244868ef8ffb1c5f9ab5e = L.marker(
+                [40.7142,-74.0064],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_71071eaac43a46e0b289060303fc0822 = L.popup({maxWidth: '300'});
+
+            
+                var html_9c0bb888298c4c339cec7c706e69038f = $('<div id="html_9c0bb888298c4c339cec7c706e69038f" style="width: 100.0%; height: 100.0%;">@NOsuan: &#39;I can&#39;t wait for our @WomenWerk Forum &amp;amp; Gala tomorrow at NYU!!\xe2\x80\xa6 https://t.co/bfH5u8QJqH&#39;</div>')[0];
+                popup_71071eaac43a46e0b289060303fc0822.setContent(html_9c0bb888298c4c339cec7c706e69038f);
+            
+
+            marker_5c385fb6e39244868ef8ffb1c5f9ab5e.bindPopup(popup_71071eaac43a46e0b289060303fc0822);
+
+            
+        
+    
+
+            var marker_b8dee7dec0c24d3cab772e73556ea0a0 = L.marker(
+                [40.73651866,-73.99091894],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_adf0d352e51c4151a549257409335406 = L.popup({maxWidth: '300'});
+
+            
+                var html_229e5d4b3b2a4f9abfe225e4cf10b1e2 = $('<div id="html_229e5d4b3b2a4f9abfe225e4cf10b1e2" style="width: 100.0%; height: 100.0%;">@jlquiroz: &#39;\xf0\x9f\x98\x8d #SpringFling #NYU #LLMs #Law #ItWillSoonBeOver @ Union Square Ballroom https://t.co/IPVXgGgMRJ&#39;</div>')[0];
+                popup_adf0d352e51c4151a549257409335406.setContent(html_229e5d4b3b2a4f9abfe225e4cf10b1e2);
+            
+
+            marker_b8dee7dec0c24d3cab772e73556ea0a0.bindPopup(popup_adf0d352e51c4151a549257409335406);
+
+            
+        
+    
+
+            var marker_8ed6a9665a5e492fb5de33e7e679824e = L.marker(
+                [40.73540708,-73.99064909],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_db1b2443341846d18994117bc4c89b2b = L.popup({maxWidth: '300'});
+
+            
+                var html_f87eb5de83ef41a89ef7b4a7ebfbc8c0 = $('<div id="html_f87eb5de83ef41a89ef7b4a7ebfbc8c0" style="width: 100.0%; height: 100.0%;">@jlquiroz: &#39;#SpringFling #NYU #NYC @ Union Square Park https://t.co/eUVnhnGDxJ&#39;</div>')[0];
+                popup_db1b2443341846d18994117bc4c89b2b.setContent(html_f87eb5de83ef41a89ef7b4a7ebfbc8c0);
+            
+
+            marker_8ed6a9665a5e492fb5de33e7e679824e.bindPopup(popup_db1b2443341846d18994117bc4c89b2b);
+
+            
+        
+    
+
+            var marker_4fcf2bd110844d5a8e9c13b99cd253f5 = L.marker(
+                [40.73540708,-73.99064909],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_e41405bb77cf4e25a2cc7ddb5fb6c400 = L.popup({maxWidth: '300'});
+
+            
+                var html_4eec53c956164698b295d3f31e0b0937 = $('<div id="html_4eec53c956164698b295d3f31e0b0937" style="width: 100.0%; height: 100.0%;">@jlquiroz: &#39;Mascarade Ball #SpringFling #NYU #NYC @ Union Square Park https://t.co/8rqeX8yARw&#39;</div>')[0];
+                popup_e41405bb77cf4e25a2cc7ddb5fb6c400.setContent(html_4eec53c956164698b295d3f31e0b0937);
+            
+
+            marker_4fcf2bd110844d5a8e9c13b99cd253f5.bindPopup(popup_e41405bb77cf4e25a2cc7ddb5fb6c400);
+
+            
+        
+    
+
+            var marker_2a42447223574209837b977a43d21943 = L.marker(
+                [40.6947086,-73.9870029],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_69b44f7bc36142839e91788fdc90dd8e = L.popup({maxWidth: '300'});
+
+            
+                var html_6b05a9138d844fbeaaca6fb283677cb6 = $('<div id="html_6b05a9138d844fbeaaca6fb283677cb6" style="width: 100.0%; height: 100.0%;">@nileshsamanta: &#39;Library toh humaari hi hai! Goria churana mera jiya! \xf0\x9f\x98\x82 #Goria #NYU #NYUTandon #DibnerMeinMaze\xe2\x80\xa6 https://t.co/Vmcq8xMaeb&#39;</div>')[0];
+                popup_69b44f7bc36142839e91788fdc90dd8e.setContent(html_6b05a9138d844fbeaaca6fb283677cb6);
+            
+
+            marker_2a42447223574209837b977a43d21943.bindPopup(popup_69b44f7bc36142839e91788fdc90dd8e);
+
+            
+        
+    
+
+            var marker_e528cd25a75a45f59d33d5974beb510e = L.marker(
+                [40.73083333,-73.9975],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_fe987947b173425eb21bc6c71efc7891 = L.popup({maxWidth: '300'});
+
+            
+                var html_0c944d6fd2aa4cd2bc8a04666ff49c3a = $('<div id="html_0c944d6fd2aa4cd2bc8a04666ff49c3a" style="width: 100.0%; height: 100.0%;">@jaimezevallos: &#39;life is happening #washingtonsquarepark #nyu #nyc #blackandwhite #thevillage #newyork #artist\xe2\x80\xa6 https://t.co/KLVm2RDmCC&#39;</div>')[0];
+                popup_fe987947b173425eb21bc6c71efc7891.setContent(html_0c944d6fd2aa4cd2bc8a04666ff49c3a);
+            
+
+            marker_e528cd25a75a45f59d33d5974beb510e.bindPopup(popup_fe987947b173425eb21bc6c71efc7891);
+
+            
+        
+    
+
+            var marker_2e7c2249274a4f27a8148f2d72e7e497 = L.marker(
+                [40.72961868,-73.99352448],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_b4d9657580c548c0980e26bfe1f14006 = L.popup({maxWidth: '300'});
+
+            
+                var html_775341e206d542f0920affab823a6d3e = $('<div id="html_775341e206d542f0920affab823a6d3e" style="width: 100.0%; height: 100.0%;">@sleepy_dev: &#39;think about making a #360 #gif\n#processing #webcam #test #ITP @ ITP - NYU https://t.co/mfaOd59nX6&#39;</div>')[0];
+                popup_b4d9657580c548c0980e26bfe1f14006.setContent(html_775341e206d542f0920affab823a6d3e);
+            
+
+            marker_2e7c2249274a4f27a8148f2d72e7e497.bindPopup(popup_b4d9657580c548c0980e26bfe1f14006);
+
+            
+        
+    
+
+            var marker_15352f9a4db946e69e641d5d384d8d09 = L.marker(
+                [40.72921284,-73.99620804],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_10b54cfd382e4c0e9ae7387594bb0bdd = L.popup({maxWidth: '300'});
+
+            
+                var html_28a847429523437cac2110794af78bcf = $('<div id="html_28a847429523437cac2110794af78bcf" style="width: 100.0%; height: 100.0%;">@tverrecchia: &#39;alma matter @ NYU Stern School of Business https://t.co/JdlhS6bI66&#39;</div>')[0];
+                popup_10b54cfd382e4c0e9ae7387594bb0bdd.setContent(html_28a847429523437cac2110794af78bcf);
+            
+
+            marker_15352f9a4db946e69e641d5d384d8d09.bindPopup(popup_10b54cfd382e4c0e9ae7387594bb0bdd);
+
+            
+        
+    
+
+            var marker_7ab11448d72e4aefaafe2f61d3134f5a = L.marker(
+                [40.722542,-73.9951515],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_0701eaca69cf4626b21e66978528cd9f = L.popup({maxWidth: '300'});
+
+            
+                var html_9bb8c5dcd04a421da62d663ce3838562 = $('<div id="html_9bb8c5dcd04a421da62d663ce3838562" style="width: 100.0%; height: 100.0%;">@MFoisey: &#39;The Sun before the Storm #nyc #soho #nolita #REI #nyu #lowermanhattan #newyorkcity @ Nolita https://t.co/lHu15mwbWM&#39;</div>')[0];
+                popup_0701eaca69cf4626b21e66978528cd9f.setContent(html_9bb8c5dcd04a421da62d663ce3838562);
+            
+
+            marker_7ab11448d72e4aefaafe2f61d3134f5a.bindPopup(popup_0701eaca69cf4626b21e66978528cd9f);
+
+            
+        
+    
+
+            var marker_363a27f1c50f42bca3af968a4081a47d = L.marker(
+                [40.73354279,-73.99938977],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_c227a81e98014a4f9a69f6965afb959c = L.popup({maxWidth: '300'});
+
+            
+                var html_5ad03750ccf04a6299149f7ea67aa009 = $('<div id="html_5ad03750ccf04a6299149f7ea67aa009" style="width: 100.0%; height: 100.0%;">@JasperColorado: &#39;Love me some vivibubbletea @ VIVI Bubble Tea NYU https://t.co/AQEvnYhCPh&#39;</div>')[0];
+                popup_c227a81e98014a4f9a69f6965afb959c.setContent(html_5ad03750ccf04a6299149f7ea67aa009);
+            
+
+            marker_363a27f1c50f42bca3af968a4081a47d.bindPopup(popup_c227a81e98014a4f9a69f6965afb959c);
+
+            
+        
+    
+
+            var marker_84cf9bfe441e40e8b9a6551fe93eddd4 = L.marker(
+                [40.7127837,-74.0059413],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_d6b4dccbc9dd485fb59a0f6e9ad0b2fc = L.popup({maxWidth: '300'});
+
+            
+                var html_dcea5c8128f141449f2908793bbdcb9a = $('<div id="html_dcea5c8128f141449f2908793bbdcb9a" style="width: 100.0%; height: 100.0%;">@tmj_nyc_nursing: &#39;We&#39;re #hiring! Read about our latest #job opening here: Hospice Liaison, RN (at NYU) 12p-8p, Monday-Friday - https://t.co/fnFRZ5RjbR&#39;</div>')[0];
+                popup_d6b4dccbc9dd485fb59a0f6e9ad0b2fc.setContent(html_dcea5c8128f141449f2908793bbdcb9a);
+            
+
+            marker_84cf9bfe441e40e8b9a6551fe93eddd4.bindPopup(popup_d6b4dccbc9dd485fb59a0f6e9ad0b2fc);
+
+            
+        
+    
+
+            var marker_5e7743322bc84733a704ee9a06cb2ec4 = L.marker(
+                [40.72988718,-73.99608036],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_1c651ab106774e76b160f9089df4b58c = L.popup({maxWidth: '300'});
+
+            
+                var html_abb5fcfeab6b4b53a5d3e8a657fa8220 = $('<div id="html_abb5fcfeab6b4b53a5d3e8a657fa8220" style="width: 100.0%; height: 100.0%;">@CarlaLarla: &#39;Happiest Birthday to one of my favorites \xf0\x9f\x92\x95From Ateneo to NYU... to\xe2\x80\xa6 https://t.co/PbTRg440lm&#39;</div>')[0];
+                popup_1c651ab106774e76b160f9089df4b58c.setContent(html_abb5fcfeab6b4b53a5d3e8a657fa8220);
+            
+
+            marker_5e7743322bc84733a704ee9a06cb2ec4.bindPopup(popup_1c651ab106774e76b160f9089df4b58c);
+
+            
+        
+    
+
+            var marker_e6f72084438d496db06ca6e409c747a3 = L.marker(
+                [40.72961868,-73.99352448],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_4d7c61693778406cba4cc15e0c8f657d = L.popup({maxWidth: '300'});
+
+            
+                var html_9bc3e7ac20764aec929f904048f73598 = $('<div id="html_9bc3e7ac20764aec929f904048f73598" style="width: 100.0%; height: 100.0%;">@sleepy_dev: &#39;#processing #multiple #webcam #test\ngot images from six webcams.\n#ITP @ ITP - NYU https://t.co/NlPcfGlslW&#39;</div>')[0];
+                popup_4d7c61693778406cba4cc15e0c8f657d.setContent(html_9bc3e7ac20764aec929f904048f73598);
+            
+
+            marker_e6f72084438d496db06ca6e409c747a3.bindPopup(popup_4d7c61693778406cba4cc15e0c8f657d);
+
+            
+        
+    
+
+            var marker_965ed9359d724959bb82e6e851a75b40 = L.marker(
+                [40.72984948,-73.99758975],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_ee58b73711ce4384a4ae9c1481861692 = L.popup({maxWidth: '300'});
+
+            
+                var html_02958615b0bd4a23a3c69516d75494b1 = $('<div id="html_02958615b0bd4a23a3c69516d75494b1" style="width: 100.0%; height: 100.0%;">@osgerchian: &#39;#depechemode #interview #timetalks depechemode #nyu #nyc #newyork #arts #artists\xe2\x80\xa6 https://t.co/oo25yRbdg6&#39;</div>')[0];
+                popup_ee58b73711ce4384a4ae9c1481861692.setContent(html_02958615b0bd4a23a3c69516d75494b1);
+            
+
+            marker_965ed9359d724959bb82e6e851a75b40.bindPopup(popup_ee58b73711ce4384a4ae9c1481861692);
+
+            
+        
+    
+
+            var marker_9548be4a26a94038bb675336cd43be05 = L.marker(
+                [40.72966,-73.99702],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_3639905b34f44eacaabca5aff1d036f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_e5dc8604c7264fb285d038812a95c8dc = $('<div id="html_e5dc8604c7264fb285d038812a95c8dc" style="width: 100.0%; height: 100.0%;">@pleasedontfront: &#39;Getting pitted in the library. So pitted \xf0\x9f\x8f\x84 \xf0\x9f\x93\x9a @ NYU Libraries https://t.co/Gb0UNPoLuz&#39;</div>')[0];
+                popup_3639905b34f44eacaabca5aff1d036f0.setContent(html_e5dc8604c7264fb285d038812a95c8dc);
+            
+
+            marker_9548be4a26a94038bb675336cd43be05.bindPopup(popup_3639905b34f44eacaabca5aff1d036f0);
+
+            
+        
+    
+
+            var marker_d374bb8f66414cf096e3abb315f4dc24 = L.marker(
+                [40.72961868,-73.99352448],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_c4d3018f044c484c95d18275f84d81f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_20e4875effcf40b8aed588e988063653 = $('<div id="html_20e4875effcf40b8aed588e988063653" style="width: 100.0%; height: 100.0%;">@JuniorXsound: &#39;Ready for #sxsw @ ITP - NYU https://t.co/HAyygwWxGY&#39;</div>')[0];
+                popup_c4d3018f044c484c95d18275f84d81f6.setContent(html_20e4875effcf40b8aed588e988063653);
+            
+
+            marker_d374bb8f66414cf096e3abb315f4dc24.bindPopup(popup_c4d3018f044c484c95d18275f84d81f6);
+
+            
+        
+    
+
+            var marker_b0b2c9f85c374ddd8f9991e603d4acbe = L.marker(
+                [40.73083333,-73.9975],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_eb32d002dd2e45c59c031db73e279f70 = L.popup({maxWidth: '300'});
+
+            
+                var html_e6f7ea5af8f8403b9282c2f7c4648604 = $('<div id="html_e6f7ea5af8f8403b9282c2f7c4648604" style="width: 100.0%; height: 100.0%;">@elispabeth: &#39;#nyu #daywithoutawoman #protest @ Washington Square Park https://t.co/XyOLTaS3J3&#39;</div>')[0];
+                popup_eb32d002dd2e45c59c031db73e279f70.setContent(html_e6f7ea5af8f8403b9282c2f7c4648604);
+            
+
+            marker_b0b2c9f85c374ddd8f9991e603d4acbe.bindPopup(popup_eb32d002dd2e45c59c031db73e279f70);
+
+            
+        
+    
+
+            var marker_4c50164e5cd246e3825d012d62f272d8 = L.marker(
+                [40.71718,-74.00187],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_e302581f1d4f4079850eeed20ae8efe7 = L.popup({maxWidth: '300'});
+
+            
+                var html_a6ac6e525a7f45e5a6803dd055d4a32d = $('<div id="html_a6ac6e525a7f45e5a6803dd055d4a32d" style="width: 100.0%; height: 100.0%;">@lovewithlola: &#39;#internationalwomensday part iiii/iiii. @ NYU Lafayette Residence Hall https://t.co/JjdTXFWSxB&#39;</div>')[0];
+                popup_e302581f1d4f4079850eeed20ae8efe7.setContent(html_a6ac6e525a7f45e5a6803dd055d4a32d);
+            
+
+            marker_4c50164e5cd246e3825d012d62f272d8.bindPopup(popup_e302581f1d4f4079850eeed20ae8efe7);
+
+            
+        
+    
+
+            var marker_90814506417a4fb0a3f4e544913138dc = L.marker(
+                [40.6101758,-73.9606197],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_725156b58d3c4fc49dee3a8b57ae73cb = L.popup({maxWidth: '300'});
+
+            
+                var html_872090598ffb4ed3a6099dbd7b361acb = $('<div id="html_872090598ffb4ed3a6099dbd7b361acb" style="width: 100.0%; height: 100.0%;">@RosieVallakia: &#39;I&#39;m at NYU Langone Levit Medical in Brooklyn, NY https://t.co/xCCQjFL6lZ&#39;</div>')[0];
+                popup_725156b58d3c4fc49dee3a8b57ae73cb.setContent(html_872090598ffb4ed3a6099dbd7b361acb);
+            
+
+            marker_90814506417a4fb0a3f4e544913138dc.bindPopup(popup_725156b58d3c4fc49dee3a8b57ae73cb);
+
+            
+        
+    
+
+            var marker_01cba12b82534e40973dae519d71b77b = L.marker(
+                [40.71718,-74.00187],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_6667c6d7a0da473d97f529134bd2e755 = L.popup({maxWidth: '300'});
+
+            
+                var html_c519711e1c5346c29dae001118ee2ee5 = $('<div id="html_c519711e1c5346c29dae001118ee2ee5" style="width: 100.0%; height: 100.0%;">@lovewithlola: &#39;#internationalwomensday photographing cuties pt iii @ NYU Lafayette Residence Hall https://t.co/WA1EGO8SKv&#39;</div>')[0];
+                popup_6667c6d7a0da473d97f529134bd2e755.setContent(html_c519711e1c5346c29dae001118ee2ee5);
+            
+
+            marker_01cba12b82534e40973dae519d71b77b.bindPopup(popup_6667c6d7a0da473d97f529134bd2e755);
+
+            
+        
+    
+
+            var marker_8b2f5e2edf78430d94ed74dbb608c486 = L.marker(
+                [40.73873874,-74.00365624],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_809587faa8fa4ec783d80e86daee9e57 = L.popup({maxWidth: '300'});
+
+            
+                var html_8013d7b9ea524589b8f77b3dfc9b2800 = $('<div id="html_8013d7b9ea524589b8f77b3dfc9b2800" style="width: 100.0%; height: 100.0%;">@evanmjohnston: &#39;Women and allies gathered in Washington Square Park in a sea of red to support #InternationalWomansDay #IWD2017\xe2\x80\xa6 https://t.co/hvKUkWqECU&#39;</div>')[0];
+                popup_809587faa8fa4ec783d80e86daee9e57.setContent(html_8013d7b9ea524589b8f77b3dfc9b2800);
+            
+
+            marker_8b2f5e2edf78430d94ed74dbb608c486.bindPopup(popup_809587faa8fa4ec783d80e86daee9e57);
+
+            
+        
+    
+
+            var marker_528a73b8f77c4eefb2feece4d28c39b3 = L.marker(
+                [40.71718,-74.00187],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_7a186c69d12a46f5ad84cec272d3d11a = L.popup({maxWidth: '300'});
+
+            
+                var html_9610c132146b4ad0b2f0014b96d3f3c7 = $('<div id="html_9610c132146b4ad0b2f0014b96d3f3c7" style="width: 100.0%; height: 100.0%;">@lovewithlola: &#39;#internationalwomensday pt ii @ NYU Lafayette Residence Hall https://t.co/xq6u3bU7jU&#39;</div>')[0];
+                popup_7a186c69d12a46f5ad84cec272d3d11a.setContent(html_9610c132146b4ad0b2f0014b96d3f3c7);
+            
+
+            marker_528a73b8f77c4eefb2feece4d28c39b3.bindPopup(popup_7a186c69d12a46f5ad84cec272d3d11a);
+
+            
+        
+    
+
+            var marker_a5c0cc230e9842f68a3310826ee3e9af = L.marker(
+                [40.71718,-74.00187],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_0f56210c70c74a59af32bf5251770373 = L.popup({maxWidth: '300'});
+
+            
+                var html_f261c6bde78f4cfa8726c458a8691241 = $('<div id="html_f261c6bde78f4cfa8726c458a8691241" style="width: 100.0%; height: 100.0%;">@lovewithlola: &#39;Celebrating #internationalwomensday with some of my favorite women. @ NYU Lafayette Residence Hall https://t.co/lFiRv6Sjgo&#39;</div>')[0];
+                popup_0f56210c70c74a59af32bf5251770373.setContent(html_f261c6bde78f4cfa8726c458a8691241);
+            
+
+            marker_a5c0cc230e9842f68a3310826ee3e9af.bindPopup(popup_0f56210c70c74a59af32bf5251770373);
+
+            
+        
+    
+
+            var marker_c62564250f274a98ae6af22faba2c883 = L.marker(
+                [40.72941,-73.9960399],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_19437b7db5a3489891514c7762587d83 = L.popup({maxWidth: '300'});
+
+            
+                var html_9d229d9a6c154be3987762899a054ed1 = $('<div id="html_9d229d9a6c154be3987762899a054ed1" style="width: 100.0%; height: 100.0%;">@chloeevalentina: &#39;Thank you Ed Sheeran #dive @ NYU Steinhardt, Music and Performing Arts https://t.co/ljYBql5kkF&#39;</div>')[0];
+                popup_19437b7db5a3489891514c7762587d83.setContent(html_9d229d9a6c154be3987762899a054ed1);
+            
+
+            marker_c62564250f274a98ae6af22faba2c883.bindPopup(popup_19437b7db5a3489891514c7762587d83);
+
+            
+        
+    
+
+            var marker_d422b6abfbce4fc0a78848918c7f4de4 = L.marker(
+                [40.74221502,-73.97404804],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_db7190d69ece47529d2eba7c56ccbe34 = L.popup({maxWidth: '300'});
+
+            
+                var html_d8b30c58d6204975b25b3ffcb650cc91 = $('<div id="html_d8b30c58d6204975b25b3ffcb650cc91" style="width: 100.0%; height: 100.0%;">@mbsthinks: &#39;Every day is International Women&#39;s Day in my world - #nyuobgyn (29 residents, 27 female!). @ NYU\xe2\x80\xa6 https://t.co/CQRzWXBY8N&#39;</div>')[0];
+                popup_db7190d69ece47529d2eba7c56ccbe34.setContent(html_d8b30c58d6204975b25b3ffcb650cc91);
+            
+
+            marker_d422b6abfbce4fc0a78848918c7f4de4.bindPopup(popup_db7190d69ece47529d2eba7c56ccbe34);
+
+            
+        
+    
+
+            var marker_bdab45d5e6264cd1ad5fe5d6a7da757a = L.marker(
+                [40.72854624,-73.99994213],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_92637e947b184bc7ba8526525b3f8b39 = L.popup({maxWidth: '300'});
+
+            
+                var html_743b44f4b4674a0d91ec6501cb3cff09 = $('<div id="html_743b44f4b4674a0d91ec6501cb3cff09" style="width: 100.0%; height: 100.0%;">@nycrealtyxstyle: &#39;#westvillage #nyu #architectureporn #lepoissonrouge #realestate #realtor #luxury #home #property\xe2\x80\xa6 https://t.co/Gz2HAa3J91&#39;</div>')[0];
+                popup_92637e947b184bc7ba8526525b3f8b39.setContent(html_743b44f4b4674a0d91ec6501cb3cff09);
+            
+
+            marker_bdab45d5e6264cd1ad5fe5d6a7da757a.bindPopup(popup_92637e947b184bc7ba8526525b3f8b39);
+
+            
+        
+    
+
+            var marker_55d35f48018347b681b7cf0f25d531b0 = L.marker(
+                [40.72961868,-73.99352448],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_ea0ebf4167954ee6bc44afbc30694ac5 = L.popup({maxWidth: '300'});
+
+            
+                var html_e0057848c51a445b847c3a95bdc47d17 = $('<div id="html_e0057848c51a445b847c3a95bdc47d17" style="width: 100.0%; height: 100.0%;">@Sejo___________: &#39;Paper&amp;amp;Print Press \n#PiecingItTogether \n#itp_nyu @ ITP - NYU https://t.co/Oggdd6uOpj&#39;</div>')[0];
+                popup_ea0ebf4167954ee6bc44afbc30694ac5.setContent(html_e0057848c51a445b847c3a95bdc47d17);
+            
+
+            marker_55d35f48018347b681b7cf0f25d531b0.bindPopup(popup_ea0ebf4167954ee6bc44afbc30694ac5);
+
+            
+        
+    
+
+            var marker_4e39dd72ba1f4f64bb4963a78427b43a = L.marker(
+                [40.72947836,-74.00124185],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_31e3d0f426f14b58b5ba498b408fedf3 = L.popup({maxWidth: '300'});
+
+            
+                var html_47aad9581fe94e799e32a00faaee5cd2 = $('<div id="html_47aad9581fe94e799e32a00faaee5cd2" style="width: 100.0%; height: 100.0%;">@Ingridwells9: &#39;Welcome to Spring Break \xe2\x9c\x8c\xf0\x9f\x8f\xbb #nyu @ Bleeker &amp;amp; Macdougal https://t.co/CRA817qw6z&#39;</div>')[0];
+                popup_31e3d0f426f14b58b5ba498b408fedf3.setContent(html_47aad9581fe94e799e32a00faaee5cd2);
+            
+
+            marker_4e39dd72ba1f4f64bb4963a78427b43a.bindPopup(popup_31e3d0f426f14b58b5ba498b408fedf3);
+
+            
+        
+    
+
+            var marker_b4bef3aa8102479780ce2a9552596346 = L.marker(
+                [40.72946,-73.99357],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_c25a72b9b13142368219145bcc3a919d = L.popup({maxWidth: '300'});
+
+            
+                var html_1def2eb151364fc9a349b8ee297f4370 = $('<div id="html_1def2eb151364fc9a349b8ee297f4370" style="width: 100.0%; height: 100.0%;">@lovewithlola: &#39;This is wild. Shout out to johnloxterkamp for the drawing. \xe2\x98\xba\xef\xb8\x8f @ NYU Tisch School of the Arts https://t.co/bhms7YKR8b&#39;</div>')[0];
+                popup_c25a72b9b13142368219145bcc3a919d.setContent(html_1def2eb151364fc9a349b8ee297f4370);
+            
+
+            marker_b4bef3aa8102479780ce2a9552596346.bindPopup(popup_c25a72b9b13142368219145bcc3a919d);
+
+            
+        
+    
+
+            var marker_57877e76e4f44317865d7e453052515c = L.marker(
+                [40.73359496,-73.98809747],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_cf24aaad99534ca5a46e1699982c6e78 = L.popup({maxWidth: '300'});
+
+            
+                var html_a408d4ddd1e8493398d7a96bac53a45e = $('<div id="html_a408d4ddd1e8493398d7a96bac53a45e" style="width: 100.0%; height: 100.0%;">@NYUDining: &#39;Palladium&#39;s #NewOrleans #RestaurantNight is waiting for you... @ NYU Palladium Residence Hall https://t.co/OypkpCVggm&#39;</div>')[0];
+                popup_cf24aaad99534ca5a46e1699982c6e78.setContent(html_a408d4ddd1e8493398d7a96bac53a45e);
+            
+
+            marker_57877e76e4f44317865d7e453052515c.bindPopup(popup_cf24aaad99534ca5a46e1699982c6e78);
+
+            
+        
+    
+
+            var marker_6fd7d06eff1446aaaf4178022a86fd88 = L.marker(
+                [40.72921284,-73.99620804],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_2ba6d71dbc3d4495b006103c725ca636 = L.popup({maxWidth: '300'});
+
+            
+                var html_62c7d39292514382af9906e72c40a828 = $('<div id="html_62c7d39292514382af9906e72c40a828" style="width: 100.0%; height: 100.0%;">@Sean_Azari: &#39;\xf0\x9f\x97\xa3 Trust your mind, trust your heart...\n\n\xf0\x9f\x94\xa5 Excerpt via @Ericthomasbtc\n#YouCantMeasureThat @ NYU\xe2\x80\xa6 https://t.co/JjITi0Hbg0&#39;</div>')[0];
+                popup_2ba6d71dbc3d4495b006103c725ca636.setContent(html_62c7d39292514382af9906e72c40a828);
+            
+
+            marker_6fd7d06eff1446aaaf4178022a86fd88.bindPopup(popup_2ba6d71dbc3d4495b006103c725ca636);
+
+            
+        
+    
+
+            var marker_4baeb70bd7a84d41b0bf80a28da31439 = L.marker(
+                [40.72941,-73.9960399],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_22c3adc5860540e099460f10a2d80b2a = L.popup({maxWidth: '300'});
+
+            
+                var html_f173cf1b0c3d4cad8838c43c7fdd1877 = $('<div id="html_f173cf1b0c3d4cad8838c43c7fdd1877" style="width: 100.0%; height: 100.0%;">@Judy_was_here: &#39;ALL HAIL THE FUTURE FORK. @ NYU Steinhardt, Music and Performing Arts https://t.co/fGwHGWLdbH&#39;</div>')[0];
+                popup_22c3adc5860540e099460f10a2d80b2a.setContent(html_f173cf1b0c3d4cad8838c43c7fdd1877);
+            
+
+            marker_4baeb70bd7a84d41b0bf80a28da31439.bindPopup(popup_22c3adc5860540e099460f10a2d80b2a);
+
+            
+        
+    
+
+            var marker_b38736f5008f432a8c6e293ebc4a7209 = L.marker(
+                [40.72988718,-73.99608036],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_37d17adf23484fa28b5628a279c41b69 = L.popup({maxWidth: '300'});
+
+            
+                var html_21c698ade6d94e09894bce927fea44be = $('<div id="html_21c698ade6d94e09894bce927fea44be" style="width: 100.0%; height: 100.0%;">@TracyCampanell: &#39;Is it ok to tell people.... It&#39;s against my religion to study economics \xf0\x9f\x98\x9d\xf0\x9f\x98\xb8\n#NYU #Nyc #study\xe2\x80\xa6 https://t.co/aUG5uM1MJG&#39;</div>')[0];
+                popup_37d17adf23484fa28b5628a279c41b69.setContent(html_21c698ade6d94e09894bce927fea44be);
+            
+
+            marker_b38736f5008f432a8c6e293ebc4a7209.bindPopup(popup_37d17adf23484fa28b5628a279c41b69);
+
+            
+        
+    
+
+            var marker_2c0c9ecfd4a64575bac4586b4be4ac57 = L.marker(
+                [40.6781784,-73.9441579],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_de04cfdf357449208108bce98b484456 = L.popup({maxWidth: '300'});
+
+            
+                var html_e1f38aeaaf4b42abb25b2a9fcabd7573 = $('<div id="html_e1f38aeaaf4b42abb25b2a9fcabd7573" style="width: 100.0%; height: 100.0%;">@tmj_nyc_nursing: &#39;Join the VNSNY team! See our latest #job opening here: https://t.co/LdsweDSh3O #Nursing #NewYork, NY #Hiring #CareerArc&#39;</div>')[0];
+                popup_de04cfdf357449208108bce98b484456.setContent(html_e1f38aeaaf4b42abb25b2a9fcabd7573);
+            
+
+            marker_2c0c9ecfd4a64575bac4586b4be4ac57.bindPopup(popup_de04cfdf357449208108bce98b484456);
+
+            
+        
+    
+
+            var marker_63a93b7ea1e141e59eb6bc3fb3ee0b4b = L.marker(
+                [40.7142,-74.0064],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_23310c9d864541d286de8d90491313d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_1909e9a512fc4f66b6477dd7ab4fb8ab = $('<div id="html_1909e9a512fc4f66b6477dd7ab4fb8ab" style="width: 100.0%; height: 100.0%;">@sammysinnoMD: &#39;Closing in on 6 years at NYU plastic surgery with 2 great friends and colleagues mirrerj casmo_\xe2\x80\xa6 https://t.co/EHHUNbqtO9&#39;</div>')[0];
+                popup_23310c9d864541d286de8d90491313d4.setContent(html_1909e9a512fc4f66b6477dd7ab4fb8ab);
+            
+
+            marker_63a93b7ea1e141e59eb6bc3fb3ee0b4b.bindPopup(popup_23310c9d864541d286de8d90491313d4);
+
+            
+        
+    
+
+            var marker_1e1a4e3a4d9e4767b81e724fedf4facb = L.marker(
+                [40.7543411,-73.9818115],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_c0f5e81eef914b0b90f7c9b0116fee20 = L.popup({maxWidth: '300'});
+
+            
+                var html_7cd2848ead404dcbac6b763bf2102987 = $('<div id="html_7cd2848ead404dcbac6b763bf2102987" style="width: 100.0%; height: 100.0%;">@_zZzain: &#39;Thinking breaks me. @ NYU Midtown https://t.co/SesJPbzsSt&#39;</div>')[0];
+                popup_c0f5e81eef914b0b90f7c9b0116fee20.setContent(html_7cd2848ead404dcbac6b763bf2102987);
+            
+
+            marker_1e1a4e3a4d9e4767b81e724fedf4facb.bindPopup(popup_c0f5e81eef914b0b90f7c9b0116fee20);
+
+            
+        
+    
+
+            var marker_ba27f7df5ec8498c8be3c78c53c1bb72 = L.marker(
+                [40.72988718,-73.99608036],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_214e0d8d303040769a1160268998fc81 = L.popup({maxWidth: '300'});
+
+            
+                var html_3884b2264dec4a34a27516c193dc0fb7 = $('<div id="html_3884b2264dec4a34a27516c193dc0fb7" style="width: 100.0%; height: 100.0%;">@LaurenSobecki: &#39;NYU doesn&#39;t have an Alpha Sig but I made it work. \xf0\x9f\x90\x9e @ New York\xe2\x80\xa6 https://t.co/IeX03k4FGi&#39;</div>')[0];
+                popup_214e0d8d303040769a1160268998fc81.setContent(html_3884b2264dec4a34a27516c193dc0fb7);
+            
+
+            marker_ba27f7df5ec8498c8be3c78c53c1bb72.bindPopup(popup_214e0d8d303040769a1160268998fc81);
+
+            
+        
+    
+
+            var marker_91312bc0f6b74f4995638d735ec9ba7c = L.marker(
+                [40.73359496,-73.98809747],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_003e36b47e2548f1948566602560e574 = L.popup({maxWidth: '300'});
+
+            
+                var html_a967546af7f84898be95cc898f0a5571 = $('<div id="html_a967546af7f84898be95cc898f0a5571" style="width: 100.0%; height: 100.0%;">@itshaleytweets: &#39;we thought the ceiling was cool. \xe2\x9c\xa8\xf0\x9f\x92\xab @ NYU Palladium Residence Hall https://t.co/CwMreEDM4l&#39;</div>')[0];
+                popup_003e36b47e2548f1948566602560e574.setContent(html_a967546af7f84898be95cc898f0a5571);
+            
+
+            marker_91312bc0f6b74f4995638d735ec9ba7c.bindPopup(popup_003e36b47e2548f1948566602560e574);
+
+            
+        
+    
+
+            var marker_c018e78e54c34895bb36514004d7d1e9 = L.marker(
+                [40.72941,-73.9960399],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_72e6c59703304c099555eca3b745a1e4);
+            
+    
+            var popup_7db38a1b38a0446db35197c00552d13b = L.popup({maxWidth: '300'});
+
+            
+                var html_e37ef1f1843641838cb3cad12b237559 = $('<div id="html_e37ef1f1843641838cb3cad12b237559" style="width: 100.0%; height: 100.0%;">@Julesoperagirl: &#39;Showcase interview. \xe2\x9c\x85 #nyusteinhardt @ NYU Steinhardt, Music and Performing Arts https://t.co/UMq8wjaxAn&#39;</div>')[0];
+                popup_7db38a1b38a0446db35197c00552d13b.setContent(html_e37ef1f1843641838cb3cad12b237559);
+            
+
+            marker_c018e78e54c34895bb36514004d7d1e9.bindPopup(popup_7db38a1b38a0446db35197c00552d13b);
+
+            
+        
+</script>
